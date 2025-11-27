@@ -546,7 +546,7 @@ liveboard:
       - id: (Sample) Retail - Apparel
         name: (Sample) Retail - Apparel
         fqn: cd252e5c-b552-49a8-821d-3eadaa049cca
-      search_query: "[sales] [date] [date].detailed [item type] [date].'last month'"
+      search_query: "[sales] [date] [date].detailed [item type] [date].'last month' [item type] != 'Jackets'"
       answer_columns:
       - name: Total sales
       - name: date
